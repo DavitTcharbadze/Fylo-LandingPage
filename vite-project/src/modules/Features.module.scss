@@ -1,0 +1,72 @@
+.feature-wrapper{
+    width: 100%;
+    height: 600px;
+    margin-top: 300px;
+    .feature-img{
+        position: absolute;
+        right: 32%;
+        top: 100px;
+    }
+    .title-section{
+        color: white;
+    }
+    .feature-paragraph{
+        position: absolute;
+        right: 36%;
+        top: 820px;
+        font-size: 20px;
+    }
+    .feature-title{
+        position: absolute;
+        right: 29%;
+        top: 720px;
+    }
+    .feature-button{
+        background-color: rgb(120, 201, 255);
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 50px;
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        left: 44%;
+        top: 940px;
+        &:hover{
+            background-color: white;
+            color: rgb(120, 201, 255);
+            transition: 0.2s;
+        }
+    }
+    .feature-info{
+        width: 1000px;
+        height: 600px;
+        position: absolute;
+        left: 23%;
+        color: white;
+        top: 1100px;
+        p{
+            font-size: 20px;
+        }
+        .access{
+            margin-left: 30px;
+            margin-top: 40px;
+        }
+        .security{
+            margin-left: 500px;
+            margin-top: -150px;
+        }
+        .collaboration{
+            margin-left: 30px;
+            margin-top: 40px;
+        }
+        .any-file{
+            margin-left: 500px;
+            margin-top: -150px;
+        }
+    }
+}

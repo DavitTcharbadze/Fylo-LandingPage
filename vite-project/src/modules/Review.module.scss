@@ -1,0 +1,29 @@
+.review-wrapper{
+    height: 1000px;
+    position: absolute;
+    .first-section{
+        display: flex;
+        position: absolute;
+        top: 1150px;
+        left: 350px;
+        width: max-content;
+        .text{
+            width: 70vh;
+            border: red;
+            h1{
+                color: white;
+    
+            }
+            p{
+                color: #e0e0e0;
+                font-size: 20px;
+            }
+            margin-left: 150px;
+            margin-top: 150px; 
+        }
+        h3{
+            margin-left: -665px;
+            margin-top: 470px;
+        }
+    }
+}

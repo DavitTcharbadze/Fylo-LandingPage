@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-wrapper{
+    height: 120px;
+    margin-top: -476px;
+    color: white;
+    .header-title{
+        position: absolute;
+        left: 200px;
+        top: 45px;
+        cursor: pointer;
+    }
+    .linkers{
+        position: absolute;
+        right: 200px;
+        top: 50px;
+        width: 300px;
+        display: flex;
+        justify-content: space-around;
+        cursor: pointer;
+        h3{
+            color: white;
+            &:hover{
+                color: rgb(173, 170, 170);
+            }
+        }
+    }
+}
